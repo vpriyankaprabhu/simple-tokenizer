@@ -1,14 +1,11 @@
 # Simple Tokenizer App
 
-This app helps you see how AI language models break text into tokens. You can input any text and see exactly how it gets split into smaller pieces for processing.
+This app helps you see how language models break text into tokens. You can input any text and see exactly how it gets split into smaller pieces for processing.
 
 ## What Are Tokens?
 
 Tokens are the basic units that AI models like ChatGPT use to process text. They can be:
-- Whole words
-- Parts of words
-- Punctuation marks
-- Spaces
+- Whole words, Parts of words, Punctuation marks, Spaces
 
 ## Installation Instructions
 
@@ -38,23 +35,13 @@ Tokens are the basic units that AI models like ChatGPT use to process text. They
 3. View the results:
    - Total token count
    - Table showing each token ID and its text
-   - Raw token ID list
 
 ## Example
 
-Enter the text "ChatGPT is awesome!" and you'll see how it breaks down into tokens like:
-- "Chat"
-- "GPT"
-- " is" (includes a space)
-- " awesome" (includes a space)
+Enter the text "Hello World!" and you'll see how it breaks down into tokens like:
+- "Hello"
+- " World" (includes a space)
 - "!"
-
-## Why This Matters
-
-Understanding tokenization helps you:
-- Work within token limits
-- Optimize costs if using AI APIs
-- Better understand AI behavior
 
 ## Need Help?
 
